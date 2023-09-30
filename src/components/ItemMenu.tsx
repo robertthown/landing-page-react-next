@@ -8,12 +8,14 @@ type Props = {
 
 export function ItemMenu({name} : Props){
     return(
-        <button className='flex items-center gap-3'>
-        <span className='text-white font-bold'>{name}</span>
-        <Image 
-            src={Arrow}
-            alt='Arrow dropdown'
-        />
-    </button>
+        <li className='hover:scale-110 transition duration-150 ease-in-out'>
+            <button className='flex items-center gap-3'>
+            <span className='text-white font-bold'>{name}</span>
+            <Image 
+                src={Arrow}
+                alt='Arrow dropdown'
+            />
+            </button>
+        </li>
     )
 }

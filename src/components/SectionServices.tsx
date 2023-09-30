@@ -10,7 +10,7 @@ import ImagePhone from '@/assets/phone.png'
 
 export function SectionServices(){
     return (
-        <section className="relative w-full h-[965px]">
+        <section className="relative w-full h-[965px]" id="servicos">
             <Container>
                 <div className="flex-1 max-w-[594px] pt-32">
                     <span className="block text-primary-orange text-sm font-bold uppercase mb-9">serviços exclusivos</span>

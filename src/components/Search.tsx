@@ -8,7 +8,7 @@ export function Search(){
                 src={IconSearch} 
                 alt='Search' 
             />
-            <input type="text" className='bg-transparent outline-none text-white placeholder:text-white pr-5' placeholder='Buscar'/>
+            <input type="text" className='bg-transparent outline-none text-white placeholder:text-white pr-5 hover:scale-105 transition duration-150 ease-in-out' placeholder='Buscar'/>
         </div>
     )
 }

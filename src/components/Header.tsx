@@ -20,12 +20,20 @@ export function Header(){
                         <a href='/'>
                         <Image src={Logo} alt="Logo" className='hover:scale-110 transition duration-150 ease-in-out'/>
                         </a>
-                        <ul className='flex items-center gap-12'>
-                                <ItemMenu name='Para você' />
-                                <ItemMenu name='Para empresas' />
-                                <ItemMenu name='Serviços' />
-                                <ItemMenu name='Ajuda' />
-                        </ul>
+                        <div className='header'>
+                            <ul className='flex items-center gap-12'>
+                                <div className="dropdown">
+                                    <ItemMenu name='Para você'/>
+                                        <div className='dropdown-menu'>
+                                            <p>Dropdown Content</p>
+                                        </div>                                    
+                                </div>
+
+                                    <ItemMenu name='Para empresas' />
+                                    <ItemMenu name='Serviços' />
+                                    <ItemMenu name='Ajuda' />
+                            </ul>
+                        </div>
                     </div>
                     <Search />
                 </div>

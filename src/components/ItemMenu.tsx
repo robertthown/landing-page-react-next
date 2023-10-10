@@ -1,5 +1,4 @@
 import Image from 'next/image'
-<script src="./scriptDropdown.js" />
 import Arrow from '@/assets/arrow-down.svg'
 
 type Props = {
@@ -11,7 +10,7 @@ type Props = {
 export function ItemMenu({name} : Props){
     return(
         <li className='hover:scale-110 transition duration-150 ease-in-out'>
-            <button className='flex items-center gap-3' data-dropdown>
+            <button className='flex items-center gap-3'>
             <span className='text-white font-bold'>{name}</span>
             <Image 
                 src={Arrow}

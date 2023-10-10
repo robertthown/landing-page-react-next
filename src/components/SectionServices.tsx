@@ -19,7 +19,7 @@ export function SectionServices(){
                     forma segura, rápida e o melhor, no conforto da sua casa.</p>
                     <ul className="flex flex-col items-start gap-9">
                         <li className="flex items-center gap-5 pb-9 border-b-[1px] border-opacity-gray">
-                            <div className="w-7 h-7 flex items-center justify-center">
+                            <div className="w-7 h-7 flex items-center justify-center hover:scale-125 transition duration-150 ease-in-out">
                                 <Image 
                                     src={PhoneIcon}
                                     alt="Icon Phone"
@@ -29,7 +29,7 @@ export function SectionServices(){
                         </li>
 
                         <li className="flex items-center gap-5 pb-9 border-b-[1px] border-opacity-gray">
-                            <div className="w-7 h-7 flex items-center justify-center">
+                            <div className="w-7 h-7 flex items-center justify-center hover:scale-125 transition duration-150 ease-in-out">
                                 <Image 
                                     src={SolutionsIcon}
                                     alt="Icon Phone"
@@ -39,7 +39,7 @@ export function SectionServices(){
                         </li>
 
                         <li className="flex items-center gap-5 pb-9 border-b-[1px] border-opacity-gray">
-                            <div className="w-7 h-7 flex items-center justify-center">
+                            <div className="w-7 h-7 flex items-center justify-center hover:scale-125 transition duration-150 ease-in-out">
                                 <Image 
                                     src={OptionsIcon}
                                     alt="Icon Phone"
@@ -49,7 +49,7 @@ export function SectionServices(){
                         </li>
 
                         <li className="flex items-center gap-5">
-                            <div className="w-7 h-7 flex items-center justify-center">
+                            <div className="w-7 h-7 flex items-center justify-center hover:scale-125 transition duration-150 ease-in-out">
                                 <Image 
                                     src={CardIcon}
                                     alt="Icon Phone"
